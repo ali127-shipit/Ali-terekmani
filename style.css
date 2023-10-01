@@ -1,0 +1,165 @@
+.head-container{
+    background-color: rgb(219, 242, 234);
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+.head-container > .heading-paragraph h1{
+    text-align: center;
+    position: relative;
+    padding-top: 200px;
+    font-size: 3rem;
+    font-family:"Sacramento", cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.head-container > .heading-paragraph h2{
+    text-align: center;
+    font-family:"Montserrat", sans-serif;;
+    
+    letter-spacing: 5px;
+    
+}
+.mountain{
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+.mountain > img{
+    width: 400px;
+    border-radius: 100%;
+}
+.profile{
+    margin-top: 50px;
+}
+.ali-image{
+    text-align: center;
+    padding-top: 50px;
+}
+.ali-image > img{
+    border-radius: 100%;
+}
+.profile > p {
+    text-align: center;
+}
+.skills{
+    display: grid;
+    grid-template-columns:0.5fr 1fr;
+    grid-template-rows:repeat(1, 1fr) ;
+    margin: 100px auto 0 auto;
+    width: 50%;
+}
+.web-dev{
+    grid-column-start:1 ;
+    grid-column-end: 2;
+}
+.coding{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: left;
+    padding-left: 10px;
+
+}
+.wings{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding-top: 50px;
+}
+.hobbie{
+    grid-column-start: 2;
+    grid-column-end:3 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 50px;
+    text-align: left;
+    padding-left: 10px;
+}
+.wings> img{
+    width: 200px;
+    
+}
+.coding > h3{
+    color: #11999e;
+}
+.hobbie > h3{
+    color: #11999e;
+}
+.contact-me{
+    padding-top: 50px;
+    text-align: center;
+}
+.contact-me > h2{
+    color:#66bfbf;
+    font-size: 3rem;
+}
+.contact-me > h3{
+    color: #11999e;
+    font-size: 1.5rem;
+}
+.contact-paragraph{
+    width: 40%;
+    margin:40px auto 60px ;
+    line-height: 30px;
+}
+
+.btn{
+    background-color: #11999e;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.footer-container{
+    background-color: #66bfbf;
+    height: 200px;
+}
+
+.footer-container li{
+    display: inline;
+    
+}
+.footer-container ul{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.footer-container a{
+    text-decoration: none;
+    color: #11999e;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.footer-container p{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+@media (max-width: 420px) {
+    .mountain{
+        display: none; 
+    }
+    .skills{
+        display: inline;
+    }
+    .web-dev{
+        text-align: center;
+    }
+    .coding{
+        text-align: center;
+    }
+    .wings{
+        text-align: center;
+    }
+    .hobbie{
+        text-align: center;
+        padding-left: 50px;
+    }
+    .footer-container ul{
+        padding-right: 70px;
+        
+    }
+    
+}
